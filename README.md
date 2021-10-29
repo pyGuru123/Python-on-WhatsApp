@@ -7,7 +7,7 @@
 This is a small python project to run python on whatsapp. and i created this project for HackCBS 4.0 hackathon organized by HackerEarth. I am thinking to turn it to a complete chatbot service for python soon.
 
 <p align='center'>
-  <img src='Assest/app.png' width=200 height=300>
+  <img src='Assest/app.jpg' width=200 height=300>
 </p>
 
 ## How to Download
@@ -27,20 +27,7 @@ In Addition, you will be reqiured to download ngrok while running this bot on lo
 
 ## Setup
 
-## Usage
 
-Navigate and click main.py to run the game. Then tap on the screen to start playing the game. The objective of the game is to destroy as much enemy planes or choppers as possible without getting destroyed. 
-
-Controls:
-* Press left arrow key to go left
-* Press right arrow key to go right
-* Press space key to go shoot
-* Press esc key to quit
-
-When playing with mouse or on pydroid3
-* Press left half of game window to go left
-* Press right half of game window to go right
-* Click on player plane to shoot
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
