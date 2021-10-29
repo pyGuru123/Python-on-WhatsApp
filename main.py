@@ -14,7 +14,9 @@ def bot():
 
 	print(incoming_msg)
 	if incoming_msg.startswith('#!python3'):
-		output = execute_python(incoming_msg)
+		code = incoming_msg.lstrip('#!python3')
+		print(code)
+		output = execute_python(code)
 		print(output)
 		msg.body(output)
 
