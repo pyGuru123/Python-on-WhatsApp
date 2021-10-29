@@ -6,9 +6,7 @@
 
 This is a small python project to run python on whatsapp. and i created this project for HackCBS 4.0 hackathon organized by HackerEarth. I am thinking to turn it to a complete chatbot service for python soon.
 
-<p align='center'>
-  <img src='https://github.com/pyGuru123/Python-on-WhatsApp/tree/main/Assets/app.jpg' width=200 height=300>
-</p>
+![Alt text](app.jpg?raw=true "PythonWA")
 
 ## How to Download
 
@@ -17,7 +15,6 @@ Clone this repository or download this project from here [Download PythonWA Sour
 ## Requirements
 
 All the required packages are written inside the requirements.txt file. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install them by running this command :-
-* Pygame
 
 ```bash
 pip install -r requirements.txt
