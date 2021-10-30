@@ -1,4 +1,5 @@
 import os
+import random
 import requests
 import datetime
 
@@ -26,3 +27,5 @@ def get_quote():
 	quote = r.json()
 	output += quote['content'] + '\n'
 	output += f"     -{quote['author']}"
+
+	return output
