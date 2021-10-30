@@ -1,4 +1,5 @@
 import os
+import json
 import random
 import requests
 import datetime
@@ -29,3 +30,19 @@ def get_quote():
 	output += f"     -{quote['author']}"
 
 	return output
+
+def fetch_apikey(api):
+	with open('data/credentials.json') as f:
+		data = json.load(f)
+	key = data.get(api, None)
+
+	return data[api]
+
+def chatbot(api_key, query):
+	url = f"http://api.wolframalpha.com/v1/result?appid={api_key}&i={query}%3f"
+	r = requests.get(url)
+	data = r.text
+	if data == 'Wolfram|Alpha did not understand your input':
+		return 'Couldn\'t understand the query'
+	else:
+		return data

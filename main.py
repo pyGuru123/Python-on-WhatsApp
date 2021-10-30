@@ -31,22 +31,29 @@ def bot():
 
 	incoming_msg = incoming_msg.lower()
 
-	if 'date' in incoming_msg:
+	if 'your name' in incoming_msg:
+		output = 'I am Itachi Uchiha'
+
+	elif 'date' in incoming_msg:
 		output = services.get_date()
-		msg.body(output)
 
 	elif 'time' in incoming_msg:
 		output = services.get_time()
-		msg.body(output)
 
 	elif 'joke' in incoming_msg:
 		output = services.get_joke()
-		msg.body(output)
 
 	elif 'quote' in incoming_msg:
 		output = services.get_quote()
-		msg.body(output)
 
+	else:
+		api_key = services.fetch_apikey('wolfram-alpha')
+		if api_key == None:
+			output = 'Wolfram alpha api key needed, check docs'
+		else:
+			output = services.chatbot(api_key, incoming_msg)
+
+	msg.body(output)
 	return str(resp)
 
 if __name__ == '__main__':
