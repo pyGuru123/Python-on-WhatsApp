@@ -8,7 +8,8 @@ app = Flask(__name__)
 
 @app.route('/bot', methods=['POST'])
 def bot():
-	incoming_msg = request.values.get('Body', '').lower().strip()
+	incoming_msg = request.values.get('Body', '').strip()
+	print(incoming_msg)
 	resp = MessagingResponse()
 	msg = resp.message()
 
@@ -17,17 +18,9 @@ def bot():
 		output = execute_python(code)
 		msg.body(output)
 
-	if incoming_msg.startswith('!pip install'):
+	elif incoming_msg.startswith('!pip install'):
 		package = incoming_msg.split()[-1]
-		try:
-			output = execute_python('import {package}')
-			if output == 'Something wrong with the code':
-				raise ImportError
-			else:
-				output = f'{package} already installed'
-		except ImportError:
-			output = install_package(package)
-
+		output = install_package(package)
 		msg.body(output)
 
 	return str(resp)

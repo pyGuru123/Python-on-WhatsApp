@@ -1,4 +1,5 @@
 import sys
+import importlib
 import contextlib
 import subprocess
 from io import StringIO
@@ -22,7 +23,8 @@ def execute_python(code):
 
 def install_package(package):
 	try:
+		importlib.import_module(package)
+		return f'{package} already installed'
+	except:
 		subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 		return f'{package} installed successfully'
-	except:
-		return 'cannot install this package'
