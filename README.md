@@ -45,10 +45,17 @@ pip install -r requirements.txt
 
 ## Setup
 
-This is a 3 step setup process.\
-1> Create twilio account & activate whatsapp message service\
-2> initialize ngrok\
-3> Update ngrok forwarding url in twilio sandbox
+This is a 7 step setup process.\
+
+* download source code
+* install packages from requirements.txt by pip install requirements.txt
+* download ngrok and extract exe, and make a account on ngrok website
+* create a twilio account for free
+* run main.py in your terminal
+* run ngrok  by double clicking ngrok.exe and execute this command > ngrok http 5000
+* copy the ngrok forwarding link and paste it in twilio sandbox
+
+  now write any code or query on whatsapp and send and done
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
