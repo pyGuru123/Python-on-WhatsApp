@@ -1,6 +1,10 @@
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+<h2 align="center">Python On WhatsApp <img src='https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png' width=30 height=30></h1>
+<p align="center">Run your python codes on whatsapp along with talking to a chatbot</p>
+<p align='center'>
+  <img src='https://forthebadge.com/images/badges/built-with-love.svg'>
+  <img src='https://forthebadge.com/images/badges/made-with-python.svg'>
+  <img src='https://forthebadge.com/images/badges/check-it-out.svg'>
+</p>
 
 # Python-on-WhatsApp
 
