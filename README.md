@@ -1,10 +1,21 @@
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+<h2 align="center">Python On WhatsApp <img src='https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png' width=30 height=30></h1>
+<p align="center">Run your python codes on whatsapp along with talking to a chatbot</p>
+<p align='center'>
+  <img src='https://forthebadge.com/images/badges/built-with-love.svg'>
+  <img src='https://forthebadge.com/images/badges/made-with-python.svg'>
+  <img src='https://forthebadge.com/images/badges/check-it-out.svg'>
+</p>
 
-# Python-on-WhatsApp
-
+<p>
 This is a small python project to run python on whatsapp. and i created this project for HackCBS 4.0 hackathon organized by HackerEarth. I am thinking to turn it to a complete chatbot service for python soon.
+ </p>
+ 
+ <h2>Features</h2>
+<ul>
+    <li>Run your python code instantly</li>
+    <li>Install packages from pip</li>
+    <li>A chatbot support so that you don't feel lonely</li>
+</ul>
 
 ![Alt text](https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg?raw=true "PythonWA")
 
