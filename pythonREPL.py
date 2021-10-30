@@ -1,6 +1,7 @@
 import sys
-from io import StringIO
 import contextlib
+import subprocess
+from io import StringIO
 
 @contextlib.contextmanager
 def stdoutIO(stdout=None):
@@ -18,3 +19,10 @@ def execute_python(code):
 		except:
 			print("Something wrong with the code")
 	return c.getvalue()
+
+def install_package(package):
+	try:
+		subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+		return f'{package} installed successfully'
+	except:
+		return 'cannot install this package'
