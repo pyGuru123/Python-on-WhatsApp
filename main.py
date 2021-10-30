@@ -2,7 +2,8 @@ import requests
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 
-from pythonREPL import execute_python, install_package
+from src.pythonREPL import execute_python, install_package
+import src.services as services
 
 app = Flask(__name__)
 
@@ -18,12 +19,21 @@ def bot():
 		output = execute_python(code)
 		msg.body(output)
 
-	elif incoming_msg.startswith('!pip install'):
+	else incoming_msg.startswith('!pip install'):
 		package = incoming_msg.split()[-1]
 		output = install_package(package)
 		msg.body(output)
 
 	return str(resp)
+	incoming_msg = incoming_msg.lower()
+
+	if 'date' in incoming_msg:
+		output = services.get_date()
+		msg.body(output)
+
+	elif 'time' in incoming_msg:
+		output = services.get_time()
+		msg.body(output)
 
 if __name__ == '__main__':
 	app.run()
