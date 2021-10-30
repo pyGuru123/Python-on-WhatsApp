@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/bot', methods=['POST'])
 def bot():
 	incoming_msg = request.values.get('Body', '').strip()
-	print(incoming_msg)
+	isPythonCode = False
 	resp = MessagingResponse()
 	msg = resp.message()
 
@@ -18,13 +18,17 @@ def bot():
 		code = incoming_msg.lstrip('#!python3')
 		output = execute_python(code)
 		msg.body(output)
+		isPythonCode = True
 
-	else incoming_msg.startswith('!pip install'):
+	elif incoming_msg.startswith('!pip install'):
 		package = incoming_msg.split()[-1]
 		output = install_package(package)
 		msg.body(output)
+		isPythonCode = True
 
-	return str(resp)
+	if isPythonCode:
+		return str(resp)
+
 	incoming_msg = incoming_msg.lower()
 
 	if 'date' in incoming_msg:
@@ -34,6 +38,12 @@ def bot():
 	elif 'time' in incoming_msg:
 		output = services.get_time()
 		msg.body(output)
+
+	elif 'joke' in incoming_msg:
+		output = services.get_joke()
+		msg.body(output)
+
+	return str(resp)
 
 if __name__ == '__main__':
 	app.run()
