@@ -8,6 +8,8 @@
 
 <p>
 This is a small python project to run python on whatsapp. and i created this project for HackCBS 4.0 hackathon organized by HackerEarth. I am thinking to turn it to a complete chatbot service for python soon.
+
+A working bot preview is here : [pythonWA](https://www.youtube.com/watch?v=Rlv0gcXmX7g)
  </p>
  
  <h2>Features</h2>
