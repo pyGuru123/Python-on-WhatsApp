@@ -18,12 +18,8 @@ A working bot preview is here : [pythonWA](https://www.youtube.com/watch?v=Rlv0g
     <li>Install packages from pip</li>
     <li>A chatbot support so that you don't feel lonely</li>
 </ul>
-
-<div align='center'
      
-  <img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg' width=200 height=360>
-  
-</div>
+  <img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg'>
 
 ## How to Download
 
