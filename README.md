@@ -6,9 +6,16 @@
   <img src='https://forthebadge.com/images/badges/check-it-out.svg'>
 </p>
 
-# Python-on-WhatsApp
-
+<p>
 This is a small python project to run python on whatsapp. and i created this project for HackCBS 4.0 hackathon organized by HackerEarth. I am thinking to turn it to a complete chatbot service for python soon.
+ </p>
+ 
+ <h2>Features</h2>
+<ul>
+    <li>Run your python code instantly</li>
+    <li>Install packages from pip</li>
+    <li>A chatbot support so that you don't feel lonely</li>
+</ul>
 
 ![Alt text](app.jpg?raw=true "PythonWA")
 
