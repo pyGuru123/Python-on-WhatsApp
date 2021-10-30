@@ -43,6 +43,10 @@ def bot():
 		output = services.get_joke()
 		msg.body(output)
 
+	elif 'quote' in incoming_msg:
+		output = services.get_quote()
+		msg.body(output)
+
 	return str(resp)
 
 if __name__ == '__main__':

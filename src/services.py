@@ -17,3 +17,12 @@ def get_joke():
 	r = requests.get(url)
 	data = r.json()
 	return data['joke']
+
+def get_quote():
+	url = 'https://api.quotable.io/random'
+	output = ''
+
+	r = requests.get(url)
+	quote = r.json()
+	output += quote['content'] + '\n'
+	output += f"     -{quote['author']}"
