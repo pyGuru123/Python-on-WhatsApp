@@ -17,9 +17,11 @@ This is a small python project to run python on whatsapp. and i created this pro
     <li>A chatbot support so that you don't feel lonely</li>
 </ul>
 
-<p align='center'
-<img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg' width=200 height=360>
-</p>
+<div align='center'
+     
+  <img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg' width=200 height=360>
+  
+</div>
 
 ## How to Download
 
@@ -27,24 +29,30 @@ Clone this repository or download this project from here [Download PythonWA Sour
 
 ## Requirements
 
-All the required packages are written inside the requirements.txt file. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install them by running this command :-
+* A Twilio account. If you are new to Twilio [create a free account now](http://www.twilio.com/referral/7fB3Je)
+
+* In Addition, you will be required to download ngrok while running this bot on localhost. Download it from [here](https://ngrok.com/download)
+
+* All the required packages are written inside the requirements.txt file.
+
+  Use the package manager [pip](https://pip.pypa.io/en/stable/) to install them by running this command :-
 
 ```bash
 pip install -r requirements.txt
 ```
 
-* A Twilio account. If you are new to Twilio [create a free account now](http://www.twilio.com/referral/7fB3Je)
-
-* In Addition, you will be reqiured to download ngrok while running this bot on localhost. Download it from [here](https://ngrok.com/download)
-
 ## Setup
 
-This is a 3 step setup process.
-1> Create twilio account & activate whatsapp message service
-2> initialize ngrok
-3> Update ngrok forwarding url in twilio sandbox 
+This is a 3 step setup process.\
+1> Create twilio account & activate whatsapp message service\
+2> initialize ngrok\
+3> Update ngrok forwarding url in twilio sandbox
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-Please make sure to update tests as appropriate.
+<div align="center">
+  
+### Show some ❤️ by starring this repository!
+  
+</div>
