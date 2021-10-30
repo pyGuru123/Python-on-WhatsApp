@@ -1,4 +1,4 @@
-<h2 align="center">Python On WhatsApp <img src='https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png' width=30 height=30></h1>
+<h2 align="center">Python On WhatsApp <img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/whatsapp.png' width=30 height=30></h1>
 <p align="center">Run your python codes on whatsapp along with talking to a chatbot</p>
 <p align='center'>
   <img src='https://forthebadge.com/images/badges/built-with-love.svg'>
@@ -17,7 +17,9 @@ This is a small python project to run python on whatsapp. and i created this pro
     <li>A chatbot support so that you don't feel lonely</li>
 </ul>
 
-<img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg'>
+<p align='center'
+<img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg' width=200 height=360>
+</p>
 
 ## How to Download
 
