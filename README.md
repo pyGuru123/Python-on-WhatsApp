@@ -17,7 +17,7 @@ This is a small python project to run python on whatsapp. and i created this pro
     <li>A chatbot support so that you don't feel lonely</li>
 </ul>
 
-![Alt text](https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg?raw=true "PythonWA")
+<img src='https://github.com/pyGuru123/Python-on-WhatsApp/blob/main/Assets/app.jpg'>
 
 ## How to Download
 
