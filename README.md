@@ -44,7 +44,7 @@ pip install -r requirements.txt
 This is a 7 step setup process.\
 
 * download source code
-* install packages from requirements.txt by pip install requirements.txt
+* install packages from requirements.txt by pip install -r requirements.txt
 * download ngrok and extract exe, and make a account on ngrok website
 * create a twilio account for free
 * run main.py in your terminal
