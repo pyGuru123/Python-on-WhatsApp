@@ -43,13 +43,13 @@ pip install -r requirements.txt
 
 This is a 7 step setup process.\
 
-* download source code
-* install packages from requirements.txt by pip install -r requirements.txt
-* download ngrok and extract exe, and make a account on ngrok website
-* create a twilio account for free
-* run main.py in your terminal
-* run ngrok  by double clicking ngrok.exe and execute this command > ngrok http 5000
-* copy the ngrok forwarding link and paste it in twilio sandbox
+* Download source code
+* Install packages from requirements.txt by pip install -r requirements.txt
+* Download ngrok and extract exe, and make a account on ngrok website
+* Create a twilio account for free
+* Run main.py in your terminal
+* Run ngrok  by double clicking ngrok.exe and execute this command > ngrok http 5000
+* Copy the ngrok forwarding link and paste it in twilio sandbox
 
   now write any code or query on whatsapp and send and done
 
